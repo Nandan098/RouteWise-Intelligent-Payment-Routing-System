@@ -1,0 +1,35 @@
+{
+  "routing": {
+    "success_weight": 0.70,
+    "latency_weight": 0.20,
+    "cost_weight": 0.10,
+    "latency_reference_ms": 500.0,
+    "cost_reference_units": 0.05
+  },
+  "gateways": [
+    {
+      "gateway_id": "gateway_a",
+      "name": "Gateway A",
+      "success_rate": 0.98,
+      "latency_ms": 150.0,
+      "cost_units": 0.020,
+      "healthy": true
+    },
+    {
+      "gateway_id": "gateway_b",
+      "name": "Gateway B",
+      "success_rate": 0.95,
+      "latency_ms": 100.0,
+      "cost_units": 0.025,
+      "healthy": true
+    },
+    {
+      "gateway_id": "gateway_c",
+      "name": "Gateway C",
+      "success_rate": 0.99,
+      "latency_ms": 300.0,
+      "cost_units": 0.035,
+      "healthy": true
+    }
+  ]
+}

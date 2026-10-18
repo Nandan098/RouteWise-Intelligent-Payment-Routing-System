@@ -1,0 +1,14 @@
+[project]
+name = "routewise-payment-routing"
+version = "1.0.0"
+description = "Educational simulated payment-gateway routing system using C++ and Python"
+readme = "README.md"
+requires-python = ">=3.10"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-ra"
+
+[tool.ruff]
+line-length = 100
+target-version = "py310"
